@@ -7,10 +7,10 @@ concurrency:
 on:
   push:
     branches:
-      - master
+      - pygame-menu-ce
   pull_request:
     branches:
-      - master
+      - pygame-menu-ce
 
 jobs:
   test:

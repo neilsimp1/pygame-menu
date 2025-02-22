@@ -44,7 +44,8 @@ with open('requirements.txt') as f:
 
 # Setup library
 setup(
-    name=pygame_menu.__module_name__,
+    # name=pygame_menu.__module_name__,
+    name='pygame-menu-ce',
     version=pygame_menu.__version__,
     author=pygame_menu.__author__,
     author_email=pygame_menu.__email__,
@@ -78,7 +79,7 @@ setup(
     ],
     include_package_data=True,
     packages=find_packages(exclude=['test']),
-    python_requires='>=3.6, <4',
+    python_requires='>=3.7, <4',
     install_requires=requirements,
     extras_require={
         'docs': ['sphinx<7', 'sphinx-autodoc-typehints>=1.2.0', 'sphinx-rtd-theme'],
